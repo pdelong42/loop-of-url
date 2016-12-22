@@ -12,6 +12,7 @@ pom.xml.asc
 .lein-repl-history
 *~
 *.swp
-url-looper.log*
-output.txt
+log/loop-of-url.log*
+log/url-looper.log*
+log/output.txt
 tmp

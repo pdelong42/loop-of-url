@@ -1,4 +1,4 @@
-(ns url-looper.core
+(ns loop-of-url.core
    (:require
       [digest]
       [clj-http.client]
@@ -41,7 +41,7 @@
       (join \newline
          [  "Usage:"
             ""
-            "   java -jar url-looper-X.Y.Z-standalone.jar -options..."
+            "   java -jar loop-of-url-X.Y.Z-standalone.jar -options..."
             ""
             "Options: (with defaults indicated)"
             options-summary  ]  )  )

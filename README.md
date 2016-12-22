@@ -1,4 +1,4 @@
-# url-looper
+# loop-of-url
 
 This is just a simple program to fetch the same URL over and over again.  If
 the response changes, it logs that fact.  That's it.  It's meant to interface
@@ -37,4 +37,4 @@ not doing its job.
 
 ## Usage
 
-    $ java -jar url-looper-X.Y.Z-standalone.jar -h
+    $ java -jar loop-of-url-X.Y.Z-standalone.jar -h

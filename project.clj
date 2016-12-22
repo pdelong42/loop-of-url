@@ -1,4 +1,4 @@
-(defproject url-looper "1.1.1-SNAPSHOT"
+(defproject loop-of-url "2.0.0-dev"
    :dependencies
    [  [clj-http                  "0.9.2"]
       [digest                    "1.4.4"]
@@ -12,4 +12,4 @@
       [org.clojure/tools.cli     "0.3.1"]
       [org.clojure/tools.logging "0.2.6"]
       [org.slf4j/slf4j-log4j12   "1.7.1"]  ]
-   :main url-looper.core  )
+   :main loop-of-url.core  )
