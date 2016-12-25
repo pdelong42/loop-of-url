@@ -12,4 +12,5 @@
       [org.clojure/tools.cli     "0.3.1"]
       [org.clojure/tools.logging "0.2.6"]
       [org.slf4j/slf4j-log4j12   "1.7.1"]  ]
-   :main loop-of-url.core  )
+   :main ^:skip-aot loop-of-url.core
+   :profiles {:uberjar {:aot :all}}  )
