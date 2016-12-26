@@ -1,6 +1,6 @@
 (defproject loop-of-url "2.0.0-dev"
    :dependencies
-   [  [clj-http                  "1.0.0"]
+   [  [clj-http                  "2.0.0"]
       [digest                    "1.4.4"]
       [log4j/log4j               "1.2.17"
          :exclusions
