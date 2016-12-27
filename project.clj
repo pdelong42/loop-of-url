@@ -1,7 +1,7 @@
 (defproject loop-of-url "2.0.0-dev"
    :dependencies
    [  [clj-http                  "3.4.1"]
-      [digest                    "1.4.4"]
+      [digest                    "1.4.5"]
       [log4j/log4j               "1.2.17"
          :exclusions
          [  javax.mail/mail
