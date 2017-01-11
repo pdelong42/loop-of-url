@@ -3,11 +3,14 @@ url-looper general (README)
 
 Why not use Nagios or other tools?
 
-   A: Forked zombie processes...doesn't want to wait for all the forked processes. Wanted to check state, and something more thresh-holdy. This tool can output and be piped to Nagios.
+   A: Forked zombie processes...doesn't want to wait for all the
+   forked processes. Wanted to check state, and something more
+   thresh-holdy. This tool can output and be piped to Nagios.
 
 MD5 collision possibilities?
 
-   A: Did not consider likely enough to worry about. If it happens, will switch to SHA.
+   A: Did not consider likely enough to worry about. If it happens,
+   will switch to SHA.
 
 Why only check 200's?
 
@@ -18,7 +21,9 @@ Why only check 200's?
 url-looper code
 ===============
 
-Clojure usually use Java namespace conventions. A: Leiningen generated the url-looper.core namespace.
+Clojure usually use Java namespace conventions.
+
+   A: Leiningen generated the loop-of-url.core namespace.
 
 In a large organization like this you'd want to use Java conventions. Missing --version option
 
@@ -28,11 +33,14 @@ Consider a more descriptive name for timer-wrapper macro.
 
 Why not print the message from the Java exception.
 
-   A: Doesn't care about that info. Not prepared to deal with it at the moment.
+   A: Doesn't care about that info. Not prepared to deal with it at
+   the moment.
 
 clj-http.client GET method, does it return execution time?
 
-   A: Tried it, but noticed there was a significant difference in time between it and the time I measured using System.nanotime. So stuck with the latter until he knows what is causing the difference.
+   A: Tried it, but noticed there was a significant difference in time
+   between it and the time I measured using System.nanotime. So stuck
+   with the latter until he knows what is causing the difference.
 
 Maybe make the 1e6 less magical.
 
