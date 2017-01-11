@@ -1,8 +1,14 @@
 # loop-of-url
 
-This is just a simple program to fetch the same URL(s) over and over
-again.  If the response changes, it logs that fact.  That's it.  It's
-meant to interface with other tools, like Splunk, Logstash, or Nagios.
+This is my old url-looper project under a new name.  It had been
+languishing for a while, and I've been meaning to get back to working
+on it.  Since I'm resurrecting it, I took the opportunity to give it a
+better name.
+
+Loop-of-URL is just a simple program which fetches the same URL(s)
+over and over again, indefinitely.  If the response changes, it logs
+that fact.  That's it.  It's meant to interface with other tools, like
+Splunk, Logstash, or Nagios.
 
 State is maintained by keeping an MD5 hash of the response in the
 memory of the running instance.  Persistence across runs is achieved
